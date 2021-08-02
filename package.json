@@ -1,12 +1,20 @@
 {
-	"author": "Thi Chieu"
+	"author": "Thi Chieu",
 	"name": "fcc-learn-npm-package-json",
+	"version": "0.1.0",
+	"description": "A project that does something awesome",
+	"keywords": [
+		"studying",
+		"package",
+		"freecodecamp"
+	],
+	"license": "MIT",
 	"dependencies": {
 		"express": "^4.14.0"
 	},
 	"main": "server.js",
 	"scripts": {
-		"start": "PORT=3000 node server.js"
+		"start": "node server.js"
 	},
 	"repository": {
 		"type": "git",
